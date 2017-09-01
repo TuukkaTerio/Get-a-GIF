@@ -1,0 +1,31 @@
+.aboutText {
+  margin: 1em auto;
+  text-align: left;
+  width: 95%;
+}
+
+.aboutGifContainer {
+  margin-top: 1em;
+}
+
+.aboutGifContainer img {
+  height: 65px;
+  width: auto;
+}
+
+.aboutGifContainer img:not(:last-child) {
+  margin-right: 0.5em;
+}
+
+/* Desktop */
+@media screen and (min-width: 1200px){
+  .aboutText {
+    width: 740px;
+  }
+  .aboutGifContainer {
+    margin-top: 2em;
+  }
+  .aboutGifContainer img {
+    height: 200px;
+  }
+}

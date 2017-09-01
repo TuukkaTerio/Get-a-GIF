@@ -1,0 +1,26 @@
+.TextInput {
+  background-color: transparent;
+  border: thick solid #fff;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 1.3rem;
+  margin: 1em auto;
+  outline: none;
+  padding: 0.5em;
+  text-align: center;
+  width: 60vw;
+}
+
+.TextInput:hover, .TextInput:focus {
+  animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1200px){
+  .TextInput {
+    font-size: 1.6rem;
+    margin: auto;
+    width: 15vw;
+  }
+}
